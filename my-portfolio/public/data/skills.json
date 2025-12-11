@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "desc": "컴포넌트 기반 UI 설계, Hooks 활용 및 상태 관리(Redux) 능숙",
+    "icon": "https://moltspace-frontenddeveloper-pf.firebaseapp.com/static/media/React.428839d4924b447d4d50.png"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript (ES6+)",
+    "desc": "비동기 처리(Async/Await), DOM 조작 및 이벤트 핸들링",
+    "icon": "https://win98icons.alexmeub.com/icons/png/script_file_blue-0.png"
+  },
+  {
+    "id": 3,
+    "title": "Spring Boot",
+    "desc": "RESTful API 설계, MVC 패턴 이해 및 백엔드 연동 경험",
+    "icon": "https://win98icons.alexmeub.com/icons/png/settings_gear-4.png"
+  },
+  {
+    "id": 4,
+    "title": "MySQL / JPA",
+    "desc": "RDBMS 데이터 구조 이해, 쿼리 작성 및 ORM 활용",
+    "icon": "https://win98icons.alexmeub.com/icons/png/db_server-0.png"
+  },
+  {
+    "id": 5,
+    "title": "Vite",
+    "desc": "빠른 빌드 도구 활용 및 개발 환경 세팅",
+    "icon": "https://win98icons.alexmeub.com/icons/png/program_manager-1.png"
+  },
+  {
+    "id": 6,
+    "title": "Git / Github",
+    "desc": "형상 관리, 브랜치 전략 및 협업 워크플로우 경험",
+    "icon": "https://win98icons.alexmeub.com/icons/png/network_internet_pcs_installer-2.png"
+  }
+]

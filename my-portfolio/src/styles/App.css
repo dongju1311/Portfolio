@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.desktop-container {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.desktop-icons-area {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90%;
+    align-content: flex-start;
+}

@@ -1,0 +1,125 @@
+.intro-container {
+    display: flex;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #fff;
+}
+
+.intro-sidebar {
+    width: 180px;
+    background: linear-gradient(to bottom, #748aff 0%, #4057d2 100%);
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-box {
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+}
+
+.sidebar-header {
+    background: linear-gradient(to right, #fff, #c6d3f7);
+    padding: 5px;
+    font-weight: bold;
+    color: #215dc6;
+    font-size: 11px;
+}
+
+.sidebar-content {
+    padding: 10px;
+    background: #d6dff7;
+    font-size: 11px;
+    color: #003399;
+}
+
+.sidebar-profile-img {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.intro-main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.intro-header-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.intro-header-desc {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.resume-section {
+    border: 1px solid #d0d0bf;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.resume-legend {
+    font-size: 11px;
+    color: #0046d5;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.resume-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.resume-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    border-bottom: 1px dotted #eee;
+    padding: 4px 0;
+}
+
+.resume-item-detail {
+    marginTop: 5;
+    fontSize: 11;
+    color: #666;
+}
+
+.resume-date {
+    width: 130px;
+    color: #666;
+}
+
+.resume-content {
+    flex: 1;
+    color: #333;
+    font-weight: bold;
+}
+
+.resume-detail {
+    width: 150px;
+    text-align: right;
+    color: #555;
+}

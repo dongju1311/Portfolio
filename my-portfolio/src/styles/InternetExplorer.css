@@ -1,0 +1,60 @@
+.ie-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #f1f1f1;
+    border: 1px solid #0055ea;
+}
+
+.ie-title-bar {
+    background: #0055ea linear-gradient(to bottom, #0058ee 0%, #3593ff 4%, #288e28 100%);
+    padding: 3px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.ie-close-btn {
+    background: #d6382d;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.ie-menu-bar,
+.ie-toolbar,
+.ie-address-bar {
+    background-color: #ece9d8;
+    border-bottom: 1px solid #d4d0c8;
+    padding: 2px 5px;
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    align-items: center;
+}
+
+.ie-address-input {
+    flex: 1;
+    border: 1px solid #7f9db9;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.ie-content-area {
+    flex: 1;
+    background-color: #fff;
+    overflow: auto;
+    position: relative;
+}
