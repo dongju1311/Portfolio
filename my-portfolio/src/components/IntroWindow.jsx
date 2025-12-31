@@ -80,11 +80,6 @@ export default function IntroWindow() {
                             <span className="resume-detail">재학중</span>
                         </div>
                         <div className="resume-item">
-                            <span className="resume-date">2019.03 ~ 2025.05</span>
-                            <span className="resume-content">강원대학교(글로벌인재학부)</span>
-                            <span className="resume-detail">중퇴</span>
-                        </div>
-                        <div className="resume-item">
                             <span className="resume-date">2014.03 ~ 2017.02</span>
                             <span className="resume-content">신도림고등학교</span>
                             <span className="resume-detail">졸업</span>
