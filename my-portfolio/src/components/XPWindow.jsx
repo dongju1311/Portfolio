@@ -1,7 +1,7 @@
 import React from 'react';
 import { Rnd } from 'react-rnd';
 import "xp.css/dist/XP.css";
-import "../styles/WindowXp.css";
+import "../styles/XpWindow.css";
 
 export default function XPWindow({
                                      id, title, children, onClose, zIndex, onFocus,
