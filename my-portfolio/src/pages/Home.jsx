@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import WindowXp from '../components/WindowXp';
+import WindowXptem from '../components/WindowXptem.jsx';
 import Taskbar from '../components/Taskbar';
 import DesktopIcon from '../components/DesktopIcon';
 import IntroWindow from '../components/IntroWindow';
@@ -125,14 +125,14 @@ export default function Home() {
             </div>
 
             {windows.map(win => win.isOpen && (
-                <WindowXp
+                <WindowXptem
                     key={win.id}
                     {...win}
                     onClose={closeWindow}
                     onFocus={focusWindow}
                 >
                     {renderWindowContent(win.id)}
-                </WindowXp>
+                </WindowXptem>
             ))}
 
             <Taskbar />
