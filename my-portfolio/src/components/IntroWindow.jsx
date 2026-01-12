@@ -22,7 +22,7 @@ export default function IntroWindow() {
                 <div className="sidebar-box">
                     <div className="sidebar-header">바로가기</div>
                     <div className="sidebar-content" style={{ cursor: 'pointer' }}>
-                        <span onClick={() => window.open('https://github.com/dongju1311')} style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                        <span onClick={() => window.open('https://github.com/dongju1311/Portfolio.git')} style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                              <img src="/images/apple-touch-icon" alt="git" style={{width:16}} /> Github
                         </span>
                         <div style={{marginTop:5}}>📧 Email</div>
@@ -64,7 +64,7 @@ export default function IntroWindow() {
                     <span className="resume-legend">교육 이수 (Education)</span>
                     <div className="resume-list">
                         <div className="resume-item">
-                            <span className="resume-date">2025.06.24 ~ 2026.01.08</span>
+                            <span className="resume-date">2025.06.24 ~ 2026.01.16</span>
                             <span className="resume-content">JAVA 풀스택 웹&앱 개발자(클라우드) 취업캠프</span>
                             <span className="resume-detail">더조은컴퓨터아카데미 강남캠퍼스</span>
                         </div>
