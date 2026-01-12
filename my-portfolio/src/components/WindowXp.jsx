@@ -3,7 +3,7 @@ import { Rnd } from 'react-rnd';
 import "xp.css/dist/XP.css";
 import "../styles/WindowXp.css";
 
-export default function WindowXptem({
+export default function WindowXp({
                                      id, title, children, onClose, zIndex, onFocus,
                                      defaultX = 100, defaultY = 100,
                                      width = 500, height = 400
