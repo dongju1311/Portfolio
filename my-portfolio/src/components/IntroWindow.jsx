@@ -66,7 +66,7 @@ export default function IntroWindow() {
                         <div className="resume-item">
                             <span className="resume-date">2025.06.24 ~ 2026.01.16</span>
                             <span className="resume-content">JAVA 풀스택 웹&앱 개발자(클라우드) 취업캠프</span>
-                            <span className="resume-detail">더조은컴퓨터아카데미 강남캠퍼스</span>
+                            <span className="resume-detail">더조은컴퓨터아카데미 강남점</span>
                         </div>
                     </div>
                 </div>
