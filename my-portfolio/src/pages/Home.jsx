@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import WindowXP from '../components/WindowXP';
+import WindowXP from '../components/WindowXp';
 import Taskbar from '../components/Taskbar';
 import DesktopIcon from '../components/DesktopIcon';
 import IntroWindow from '../components/IntroWindow';
